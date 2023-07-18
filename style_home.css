@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'Mallana';
+    src:url('Fonts/Mallana/Mallanna-Regular.ttf'); 
+    
+}
+  
+  
+@font-face {
+    font-family: 'Carrois';
+    src:url('Fonts/Carrois/CarroisGothicSC-Regular.ttf'); 
+    
+}
+
+body{
+    background-color: #EBB284;
+    display: flex;
+    flex-direction: column;
+    max-width: 7.5in;
+    margin: 0 auto;
+}
+.page{
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFF0;
+    margin-top: -10px;
+}
+header {
+    margin-top: 0px;
+    margin-right: 0px;
+    width: 100%;
+}
+.title {
+    font-family: 'Mallana';
+    color: white;
+    background-color: #DE803C;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    
+}
+.title2 {
+    font-family: 'Mallana';
+    color: #5B5B60;
+    letter-spacing: 0.1em;
+    
+    
+}
+.title3{
+    font-family: 'Mallana';
+    color: white;
+    background-color: #EBB183;
+    letter-spacing: 0.05em;
+
+
+}
+
+nav{
+    width: 20%;
+    padding-left: 10px;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 0 0 0;
+    margin: 0;
+  }
+  
+nav li a {
+    margin-top: -20;
+    padding-top: -20px;
+    padding: -10px -20px;
+    text-decoration: none;
+  }
+  
+nav li a:hover {
+    /*background-color: orange;*/
+    color: #DE803C;
+  }
+main{
+    width: 55%;
+    float:left;
+    font-family: 'Mallana';
+    font-size: 14px;
+    font-weight:lighter;
+    font-stretch:ultra-condensed;
+    line-height: 1;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+
+}
+.about-text{
+    width: 65%;
+    margin-right:10px;
+}
+img.about-image{
+    width:35%;
+    float: right;
+    margin-left: 10px;
+}
+
+
+.right{
+    background-color: #FFFFF0;
+    width: 20%;
+    padding-right: 15px;
+
+}
+.right p{
+
+    float: right;
+    color: #DE803C; /* E9B5AE  DE803C*/
+    font-family: 'Mallana';
+    font-size: 12px;
+    font-weight:lighter;
+    font-stretch:ultra-condensed;
+    line-height: 1;
+}
+
+footer{
+    width: 100%;
+    background-color: #de803c;
+    color: white;
+    text-align: center;
+    font-family: 'Carrois';
+    font-size:medium;
+    font-weight:normal;
+    font-stretch:condensed;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+
+
+.options {
+    background-color: #fffff0;
+    color: black;
+    margin-top: 0px;
+    padding-top: -0px;
+    font-family: 'Mallana';
+    font-size:small;
+    font-weight:lighter;
+    font-stretch:ultra-condensed;
+    line-height: 0;
+    
+  }

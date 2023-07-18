@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'Mallana';
+    src:url('Fonts/Mallana/Mallanna-Regular.ttf'); 
+    
+}
+  
+  
+@font-face {
+    font-family: 'Carrois';
+    src:url('Fonts/Carrois/CarroisGothicSC-Regular.ttf'); 
+    
+}
+@font-face {
+    font-family: 'Comics';
+    src:url('Fonts/CM/ComicSansMS3.ttf'); 
+    font-size: 5px;    
+}
+
+body{
+    background-color: #EBB284;
+    display: flex;
+    flex-direction: column;
+    max-width: 7.5in;
+    margin: 0 auto;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFF0;
+    margin-top: -10px;
+}
+header {
+    margin-top: 0px;
+    margin-right: 0px;
+    width: 100%;
+}
+.title b{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F8D6B9;
+    background-color: #B97A57;
+    font-size: 30px;
+    font-weight: 500;
+
+    letter-spacing: 0.2em;
+    padding-left: 5px;
+    
+    
+}
+.coach-title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #DE803C;
+    font-size: x-large;  
+    font-weight: 100;  
+}
+nav{
+    background-color: #FFFFF0;
+    width: 20%;
+    padding-left: 10px;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 20px 0 0 0px;
+    margin: 0;
+  }
+  
+nav li a {
+    margin-top: -20;
+    padding-top: -20px;
+    display: block;
+    color: black;
+    padding: -10px -20px;
+    text-decoration: none;
+  }
+  
+nav li a:hover {
+    /*background-color: orange;*/
+    color: #DE803C;
+    
+  }
+main{
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'Mallana';
+    font-size: 14px;
+    font-weight:lighter;
+    font-stretch:ultra-condensed;
+    line-height: 1;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    margin-top: -5px;
+}
+
+.coach-list{
+    list-style-image: url(images/check.png);
+}
+
+
+.container-coach{
+    display:inline-block;
+}
+.container-coach p{
+    margin-left:10px;
+}
+.container-coach img{
+    width:40%;
+    float: left;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.quote-box{
+    
+    margin-left:10px;
+    background-color: #DE803C;
+    color: white;
+    padding: 1em;
+    margin-bottom: 3em;
+    width: 200px;
+    height: 110px;
+    float: right;
+    font-family: 'Comics';
+    font-size: 12px;
+    line-height: 1.2;
+}
+
+
+
+footer{
+    width: 100%;
+    background-color: #de803c;
+    color: white;
+    text-align: center;
+    font-family: 'Carrois';
+    font-size:medium;
+    font-weight:normal;
+    font-stretch:condensed;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+
+
+.options {
+    background-color: #fffff0;
+    color: black;
+    margin-top: 0px;
+    padding-top: -0px;
+    font-family: 'Mallana';
+    font-size:small;
+    font-weight:lighter;
+    font-stretch:ultra-condensed;
+    line-height: 0;
+    
+  }
